@@ -1,0 +1,20 @@
+<!--- GOOGLE FONTS --->
+<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+<!-- END GOOGLE FONTS --->
+
+
+/** HAML, HAVE NO IDEA HOW IT WORKS, JUST COPIED AND PASTED **/
+.container
+  %header
+    %h1 Feel free to send me a Message 
+  .name
+    %input.first{ :type => 'text', :placeholder => 'First Name'}
+    %input.last{ :type => 'text', :placeholder => 'Last Name'}
+  .contact
+    %input.email{ :type => 'text', :placeholder => 'E-mail Address'}
+  .message
+    %textarea{ :placeholder => 'Your Suggestions Here!'}
+  %footer 
+    %button.send Send Message
+    %button.back Back to page
